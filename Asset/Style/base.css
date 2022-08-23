@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+h1 {
+    color: rgb(240, 240, 240);
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(240, 240, 240);
+    font-size: 40px;
+}
+
+h3 {
+    color: rgb(240, 240, 240);
+    font-size: 30px;
+}
+
+p {
+    color: rgb(240, 240, 240);
+    font-size: 20px;
+}
+
+.circle-btn {
+    width: 40px;
+    height: 40px;
+    color: rgb(50,50,50);
+    background-color: rgb(180, 180, 180);
+    border: 2px solid rgb(160, 160, 160);
+    box-shadow: 0 0 4px rgba(215, 220, 195, 0.5);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 90px;
+}
+
+.circle-btn:hover {
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(220, 220, 195);
+    box-shadow: 0 0 5px rgba(255, 247, 0, 0.8);
+}
+
+.round-btn {
+    width: 100px;
+    height: 40px;
+    color: rgb(50,50,50);
+    background-color: rgb(180, 180, 180);
+    border: 2px solid rgb(160, 160, 160);
+    box-shadow: 0 0 4px rgba(215, 220, 195, 0.5);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 90px;
+}
+
+.round-btn:hover {
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(220, 220, 195);
+    box-shadow: 0 0 5px rgba(255, 247, 0, 0.8);
+}
